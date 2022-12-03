@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>IGŁA-POL</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+      <!--header section start -->
+      <div class="header_section">
+         <div class="container-fluid">
+            <div class="costum_header">
+               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+               <div class="contact_menu">
+                  <ul>
+                     <li><img src="images/icon-home-page.png" class="padding_right_10"><a href="index.html">O nas</a></li>
+                     <li><img src="images/icon-car.png" class="padding_right_10"><a href="#">Samochody</a></li>
+                     <li><img src="images/icon-cash.png" class="padding_right_10"><a href="#">Sprzedaj</a></li>
+					 <li><img src="images/icon-contact.png" class="padding_right_10"><a href="#">Kontakt</a></li>
+                  </ul>
+               </div>
+               <div class="menu_text">
+                  <div id="myNav" class="overlay">
+                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                     <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="services.html">Services</a>
+                        <a href="providing.html">Providing</a>
+                        <a href="choose.html">Choose</a>
+                     </div>
+                  </div>
+                  <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png" class="toggle_menu"></span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- header section end -->
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+         <div class="container">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_taital">
+                              <h1 class="banner_taital">35000 zł</h1>
+							  <p class="banner_text_title">Volkswagen Passat</p>
+                              <p class="banner_text">2.0TDI</p>
+							  <p class="banner_text">2014</p>
+							  <p class="banner_text">198000km</p>
+                           </div>
+                           <div class="btn_main">
+                              <div class="quote_bt active"><a href="#">Zobacz więcej</a></div>
+                              <div class="contact_bt"><a href="#">Jazda próbna</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div><img src="images/auto.jpg" class="banner_img"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_taital">
+                              <h1 class="banner_taital">10000 zł</h1>
+                              <p class="banner_text_title">Volkswagen Passat</p>
+                              <p class="banner_text">2.0TDI</p>
+							  <p class="banner_text">2014</p>
+							  <p class="banner_text">198000km</p>
+                           </div>
+                           <div class="btn_main">
+                              <div class="quote_bt active"><a href="#">Zobacz więcej</a></div>
+                              <div class="contact_bt"><a href="#">Jazda próbna</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div><img src="images/auto1.jpg" class="banner_img"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_taital">
+                              <h1 class="banner_taital">6999 zł</h1>
+                              <p class="banner_text_title">Volkswagen Passat</p>
+                              <p class="banner_text">2.0TDI</p>
+							  <p class="banner_text">2014</p>
+							  <p class="banner_text">198000km</p>
+                           </div>
+                           <div class="btn_main">
+                              <div class="quote_bt active"><a href="#">Zobacz więcej</a></div>
+                              <div class="contact_bt"><a href="#">Jazda próbna</a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div><img src="images/auto2.jpeg" class="banner_img"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left" aria-hidden="true"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right" aria-hidden="true"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- banner section end -->
+      <!-- services section start -->
+      <div class="services_section layout_padding">
+         <div class="container">
+            <h1 class="services_taital">O <span style="color: #0c426e">Nas</span></h1>
+            <p class="services_text">Jesteśmy super komisem, sprzedajemy super samochody i mamy super podejście do klienta </p>
+            <div class="services_section_2 layout_padding">
+               <div class="row">
+                  <div class="col-md-4 padding_right_0">
+                     <div class="services_box">
+                        <h4 class="express_text">Nie cofamy liczników</h4>
+                        <p class="lorem_text">Nie uznajemy oszustw. W ofercie posiadamy tylko pojazdy sprawdzone pod względem historii i z oryginalnym przebiegiem. Czysty przypadek sprawia, że trafiamy wyłącznie na samochody z przebiegiem poniżej 300 tysięcy kilometrów. </p>
+                        <div class="seemore_bt"><a href="#">Zadzwoń do nas</a></div>
+                        <div><img src="images/banner1.jpg" class="image_1"></div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 padding_0">
+                     <div class="services_box">
+                        <div><img src="images/banner2.jpg" class="image_1"></div>
+                        <h4 class="express_text">Tylko niebite</h4>
+                        <p class="lorem_text">Wszystkie oferowane przez nas auta są weryfikowane pod względem przeszłości wypadkowej. Nie oferujemy samochodów po wypadkach! Warto zaznaczyć, że wypadek to jest wtedy kiedy wystrzelą poduszki powietrzne. </p>
+                        <div class="seemore_bt"><a href="#">Przyjedź do nas</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 padding_left_0">
+                     <div class="services_box">
+                        <h4 class="express_text">Gwarancja jakości</h4>
+                        <p class="lorem_text">Tanio i średnio, czyli dobrze! Gwarantujemy, że ceny naszych pojazdów są adekwatne do ich stanu. Gwarantujemy również że wszystkie drobne usterki nie wpływają na pracę silnika. Oferyjemy możliwość sprawdzenia pojazdów gdziekolwiek. </p>
+                        <div class="seemore_bt"><a href="#">Napisz do nas</a></div>
+                        <div><img src="images/banner3.jpg" class="image_1"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  
+	  
+      <!-- services section end -->
+      <!-- providing section start -->
+	  <!--
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_taital">U nas znajdziesz <span style="color: #0c426e">same perełki</span></h1>
+         </div>
+      </div>
+      <div class="providing_section_2 layout_padding">
+         <div class="container">
+            <h2 class="clean_text">Clean  And  Quality</h2>
+            <p class="ipsum_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
+            <div class="quote_bt_1"><a href="#">Get A Quote</a></div>
+         </div>
+      </div>
+	  -->
+	  
+	  
+	  
+      <!-- providing section end -->
+      <!-- choose section start -->
+      <div class="choose_section layout_padding">
+         <div class="container">
+            <h1 class="services_taital">Sprzedaj swój samochód <span style="color: #0c426e">z nami</span></h1>
+            <div class="choose_section_2 layout_padding">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="choose_box">
+                        <div class="number_1">
+                           <h4 class="number_text">01</h4>
+                           <h4 class="trusted_text">Prześlij zgłoszenie</h4>
+                        </div>
+                        <p class="dummy_text">Przejdź do zakładki Sprzedaj, opisz swój samochód i załącz możliwie dokładne zdjęcia  </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="choose_box">
+                        <div class="number_1">
+                           <h4 class="number_text">02</h4>
+                           <h4 class="trusted_text">Czekaj na kontakt</h4>
+                        </div>
+                        <p class="dummy_text">W możliwie krótkim czasie nasz serwis skontaktuje się z tobą w celu oględzin i wyceny  </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="choose_box">
+                        <div class="number_1">
+                           <h4 class="number_text">03</h4>
+                           <h4 class="trusted_text">Sprzedaj</h4>
+                        </div>
+                        <p class="dummy_text">Twój starannie przygotowany samochód zostanie szybko sprzedany przez nasz komis   </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- choose section end -->
+      <!-- testimonial section start -->
+      <div class="testimonial_section layout_padding">
+         <div class="container">
+            <h1 class="testimonial_taital">Opinie</h1>
+            <div class="testimonial_section_2">
+               <div id="my_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+					<div class="carousel-item active">
+                        <div class="testimonial_box">
+                           <div class="tectimonial_mail">
+                              <div class="client_image_section">
+                                 <img src="images/customer-andrzej.jpg" class="client_img">
+                              </div>
+                              <div class="client_text_section">
+                                 <p class="testimonial_text">Nie wierzyłem, że tego trupa da się jeszcze komuś opchnąć. Dzięki IGŁA-POL dostałem za swojego opla więcej niż na złomie!</p>
+                                 <h4 class="joech_text">Andrzej</h4>
+                                 <p class="customer_text">Sprzedał samochód</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="testimonial_box">
+                           <div class="tectimonial_mail">
+                              <div class="client_image_section">
+                                 <img src="images/customer-kuba.png" class="client_img">
+                              </div>
+                              <div class="client_text_section">
+                                 <p class="testimonial_text">Kupiłem samochód w IGŁA-POL i u mechanika pojawiam się już tylko w celu niewielkich napraw!</p>
+                                 <h4 class="joech_text">Kuba</h4>
+                                 <p class="customer_text">Kupił samochód</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="testimonial_box">
+                           <div class="tectimonial_mail">
+                              <div class="client_image_section">
+                                 <img src="images/customer-anna.jpg" class="client_img">
+                              </div>
+                              <div class="client_text_section">
+                                 <p class="testimonial_text">Jestem super zadowolona z zakupu. W gratisie dostałam komplet choinek zapachowych!</p>
+                                 <h4 class="joech_text">Anna</h4>
+                                 <p class="customer_text">Kupiła zamochód</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- testimonial section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <h2 class="useful_text">Kontakt</h2>
+                  <div class="location_text"><img src="images/map-icon1.png"><a href="#"><span class="padding_left_15">Wymyślona 12, 12-123 Wymysłów</span></a></div>
+                  <div class="location_text"><img src="images/call-icon1.png"><a href="#"><span class="padding_left_15">(+48) 345356756</span></a></div>
+                  <div class="location_text"><img src="images/mail-icon1.png"><a href="#"><span class="padding_left_15">iglapol@gmail.com</span></a></div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h2 class="useful_text">Menu </h2>
+                  <div class="footer_menu">
+                     <ul>
+                        <li class="active"><a href="index.html">O nas</a></li>
+                        <li><a href="about.html">Samochody</a></li>
+                        <li><a href="service.html">Sprzedaj</a></li>
+                        <li><a href="blog.html">Kontakt</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h2 class="useful_text">Godziny otwarcia</h2>
+                  <p class="footer_text">Pn.-Pt. : 09:00 - 19:00</p>
+                  <p class="footer_text">Sob. : 09:00 - 13:00</p>
+                  <p class="footer_text">Nd. : Nieczynne</p>
+               </div>
+               <div class="col-sm-6 col-lg-3">
+                  <h1 class="useful_text">Dojazd</h1>
+				  <img src="images/footer-map.png" class="foote-map">
+               </div>
+            </div>
+            <!--<div class="social_icon">
+               <div id="social">
+                  <a class="facebookBtn smGlobalBtn" href="#"></a>
+                  <a class="twitterBtn smGlobalBtn" href="#"></a>
+                  <a class="instagramBtn smGlobalBtn" href="#"></a>
+                  <a class="linkedinBtn smGlobalBtn" href="#"></a>
+               </div>
+            </div>-->
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">IGŁA-POL<br>s16324 s20461 s20451</a></p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <!--<script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+            });
+            
+            $(".zoom").hover(function(){
+            
+            $(this).addClass('transition');
+            }, function(){
+            
+            $(this).removeClass('transition');
+            });
+            });
+            
+      </script> 
+      <script>
+         function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+         }
+         
+         function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+         }
+      </script>  --> 
+   </body>
+</html>
